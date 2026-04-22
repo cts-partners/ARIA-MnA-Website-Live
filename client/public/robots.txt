@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://aria-mna.com/sitemap.xml
+
+# Disallow admin paths
+Disallow: /api/
+Disallow: /api/trpc/
