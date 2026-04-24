@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+      content="width=device-width, initial-scale=1.0" />
     <title>ARIA M&A Intelligence — AI-Powered M&A Transaction Platform</title>
     <meta name="title" content="ARIA M&A Intelligence — AI-Powered M&A Transaction Platform" />
     <meta name="description" content="ARIA is the first Agentic AI M&A Transaction Operating System. Specialized agents, knowledge graph, and hybrid GraphRAG search built for mid-market M&A. Deal sourcing, due diligence, valuation, sell-side advisory, and marketplace." />
@@ -28,6 +28,7 @@
     <meta property="twitter:title" content="ARIA M&A Intelligence — AI-Powered M&A Transaction Platform" />
     <meta property="twitter:description" content="The first Agentic AI M&A Transaction Operating System." />
     <meta property="twitter:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310519663285947699/UU9d44JqYaiSmX6pFjko47/aria-og-v2_a3e662b7.png" />
+    <meta property="twitter:image:alt" content="ARIA M&A Intelligence Platform — Agentic AI for M&A" />
     <link rel="canonical" href="https://aria-mna.com/" />
     <link rel="icon" type="image/png" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663285947699/UU9d44JqYaiSmX6pFjko47/ARIALogo-correct_8fffedab.png" />
     <link rel="apple-touch-icon" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663285947699/UU9d44JqYaiSmX6pFjko47/ARIALogo-correct_8fffedab.png" />
@@ -58,7 +59,7 @@
       "@context": "https://schema.org",
       "@type": "ContactPage",
       "name": "Contact ARIA M&A Intelligence",
-      "description": "Request information, book a demo, schedule a technical talk, or start your 30-day free trial of ARIA.",
+      "description": "Request information, book a demo, schedule a technical talk, or start your 14-day free trial of ARIA.",
       "url": "https://aria-mna.com/contact",
       "mainEntity": {
         "@type": "Organization",
@@ -81,16 +82,43 @@
       }
     }
     </script>
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ARIA M&A Intelligence",
+      "url": "https://aria-mna.com",
+      "logo": "https://d2xsxph8kpxj0f.cloudfront.net/310519663285947699/UU9d44JqYaiSmX6pFjko47/ARIALogo-correct_8fffedab.png",
+      "sameAs": [
+        "https://www.cts-partners.com"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "url": "https://aria-mna.com/contact",
+          "availableLanguage": "English"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "technical support",
+          "url": "https://aria-mna.com/help",
+          "availableLanguage": "English"
+        }
+      ]
+    }
+    </script>
     <!-- Noindex /contact/thanks (transactional confirmation page) -->
     <script>
-    if (window.location.pathname.startsWith('/contact/thanks')) {
+    if (['/contact/thanks', '/free-trial/thanks', '/book-demo/thanks'].some(p => window.location.pathname.startsWith(p))) {
       var m = document.createElement('meta');
       m.name = 'robots'; m.content = 'noindex, nofollow';
       document.head.appendChild(m);
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-B_UXWvYE.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BJZ_0ish.css">
+    <script type="module" crossorigin src="/assets/index-KUPt1ljA.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BUIhn1sn.css">
   </head>
 
   <body>
